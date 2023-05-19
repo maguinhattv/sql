@@ -1,0 +1,22 @@
+SELECT * FROM SSMS.dbo.Faculdade
+INSERT INTO SSMS.dbo.Faculdade(Id, Tema, PerguntasFrequentes, Hashtags, TuaOpiniao)
+VALUES (1,'Licenciaturas e mestrados integrados','Que tipos de mestrados integrados há?','#integrados','Existem imensos.'),
+	   (2,'Impulso PRR','O que é?','#impulso prr','tira aqui as tus duvidas'), 
+	   (3,'Mestrados','que tipo de mestrados existem?','#mestrado','aqui estao presentes os tipos de mestrados'),
+	   (4,'Mobilidade','Como faço para me deslocar á FP?','#mobilidade','Nos fornecemos um cartão esclusivo STCP!'), 
+	   (5,'Reconhecimentos','Que tipo de reconhecimentos ficarei pós faculdade?','#reconhece-te','Descobre vindo para a melhro Fcauldade do pais!'), 
+	   (6,'Doutoramentos','Sobre doutoramentos, como funciona?','#doutoramento','Contacta os nossos serviços para te orientares.'), 
+	   (7,'Aprendizagem ao longo da vida','O que posso aprender para o resto da vida?','#aprende','tira aqui as tus duvidas'), 
+	   (8,'Apoio ao estudo','Tem apoio ao estudo?','#apoio','Tem sim e com os melhores professores!'), 
+	   (9,'O que investigamos','o que investigam?','#investiga','Investigamos os melhores alunos de Portigal e arredores.'),
+	   (10,'Ecossistema de investigação','O que é?','#eco','tira aqui as tuas duvidas connosco'),
+	   (11,'Iniciativas','que iniciativas devo tomar?','#iniciativas','Deves começar por preencher um pequeno formulário e empenhar-te ao máximo'),
+	   (12,'Ciencia Aberta','O que é?','#ciencia','aqui temos ciencia aberta á escolha.'),
+	   (13,'Politicas e regulamento','quais sao e como funciona?','#politics','Segue o link das nossas politicas e regulamento!'),
+	   (14,'Desporto e lazer','Têm desporto na faculdade?','#desporto','Temos sim, tanto como materiais ou até mesmo espaços específicos para praticar exercicio!'),
+	   (15,'Talento e carreira','?','#carreira','tira aqui as tus duvidas'),
+	   (16,'Voluntariado','Há voluntariado?','#voluntariado','Sim, apartir de um certo tempo oferecemos voluntariado.'),
+	   (17,'Alimni','O que é?','#alimni','Tens duvidas? Clica no link apresentado para te informares!'),
+	   (18,'Cartão U.Porto','O que é?','#u.porto','O cartão U.Porto é oque te faz ter acesso á faculdade.'),
+	   (19,'Organização','Boa organização?','#f.porto','sem duvida, somos uma organização para estudantes se informarem e estamos no top melhores Faculdades do mundo em 28 áreas de estudo!'),
+	   (20,'O Campus','O que é?','#campus','O campus é o melhor detodos neste pais em rlação a outras instituições, informa te mais!')

@@ -1,0 +1,15 @@
+SELECT * FROM SSMS.dbo.RoupaInterior
+INSERT INTO SSMS.dbo.RoupaInterior(Id,Cor,SexoUsuario,Preco,TuaOpiniao)
+VALUES (1,'Roxo','Feminino',35,'Qualidade excelente porem para temperaturas altas.'),
+	   (2,'Branco','Feminino',40,'Boa qualidade e confortável!'),
+	   (3,'Bege','Feminino',40,'Boa qualidade e confortável para temperaturas frias!'),
+	   (4,'Azul','Feminino',48,'Boa qualidade, confortável e estiloso!'),
+	   (5,'Preto','Feminino',27,'Boa qualidade e confortável, deslumbrante e fashion!'),
+	   (6,'Preto','Masculino',20,'Caloroso e confortável'),
+	   (7,'Branco','Masculino',20,'Boa qualidade e económico!'),
+	   (8,'Preto','Masculino',20,'Excelente tecido premium e duradouro!'),
+	   (9,'Preto','Masculino',15,'Uma ótima escolha se for para se usar no seu dia a dia!'),
+	   (10,'Preto','Masculino',40,'Boa porém bom apenas para temperaturas mais altas!')
+SELECT * FROM SSMS.dbo.Pessoa
+INSERT INTO SSMS.dbo.RoupaInterior(Id,Cor,SexoUsuario,Preco,TuaOpiniao)
+VALUES (NULL, 'ROSA', 'MASCULINO', 23, 'Qualidade otima')

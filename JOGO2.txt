@@ -1,0 +1,15 @@
+SELECT * FROM SSMS.dbo.ILGA
+INSERT INTO SSMS.dbo.ILGA(Id,Tema,DatadoArtigo,Hashtags,TuaOpiniao)
+VALUES (1,'preciso de falar',15,'#falaconnosco','Atira tudo para fora para te pudermos ajudar!'),
+	   (2,'fui vitima de violencia',19,'#denuncia','Deverias denunciar aqui o agressor!'),
+	   (3,'porque existimos',02,'#fundação','Existimos para a segurança da população e para combater a discriminação!'),
+	   (4,'equipa',30,'#team','conhece aqui a nossa equipa profissional!'),
+	   (5,'projetos',18,'#projects','Cheio de projetos incriveis por vir!'),
+	   (6,'pessoas associadas',07,'#associated people','conhece as pessoas maravilhosas ja associadas á nossa empresa!'),
+	   (7,'ajudar a ilga',14,'#helpilga','Caso tenhas boa qualidade de vida ajuda os mais necessitados!'),
+	   (8,'preciso de ajuda social',26,'#ajudasocial','deverias te informar exatamente nesta Aba!'),
+	   (9,'grupos de apoio e partilha',31,'#groups','Aqui tens os melhores grupos de apoio e partilha!'),
+	   (10,'contacte-nos',2,'#contactUs','Contacta a melhor empresa para combater o homofobismo etc ainda presentes em Portugal!')
+SELECT * FROM SSMS.dbo.ILGA
+INSERT INTO SSMS.dbo.ILGA(Id,Tema,DatadoArtigo,Hashtags,TuaOpiniao)
+VALUES (NULL, '',4, '#NAOTENHASMEDOS', '')

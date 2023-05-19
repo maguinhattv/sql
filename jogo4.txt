@@ -1,0 +1,17 @@
+SELECT * FROM SSMS.dbo.lusitanoo
+INSERT INTO SSMS.dbo.lusitanoo(Id, Nome, Numerotelefone, Diareserva, Horareserva, Pontuacaocliente, Hashtags, Opiniaocliente)
+VALUES (1, 'Rodrigo', 91871455, 23, '21h', 5, '#lusitano', 'Qualidade muito boa!'),
+	   (2, 'Marta', 91761941, 26, '20h', 4, '#lusitano', 'Qualidade boa!'),
+	   (3, 'Filipe', 918566251, 19, '11h', 3, '#lusitano', 'Pouca qualidade!'),
+	   (4, 'Nery', 919604388, 29, '21:30h', 5, '#lusitano', 'Qualidade excelente, boa comida!'),
+	   (5, 'André', 912576524, 12, '20h', 2, '#lusitano', 'péssimo atendimento!'),
+	   (6, 'Jorge', 917825342, 05, '21h', 4, '#lusitano', 'Qualidade boa e satisfaz!'),
+	   (7, 'Diogo ', 93089165, 31, '21:20h', 5, '#lusitano', 'Qualidade excelente e ambiente tranquilo!'),
+	   (8, 'Agostinho', 969206465, 22, '21h', 3, '#lusitano', 'mais ou menos!'),
+	   (9, 'Ricardo', 917649141, 15, '19h', 4, '#lusitano', 'Bom atendimento!'),
+	   (10, 'Pedro', 91871455, 26, '21h', 5, '#lusitano', 'Qualidade muito boa!'),
+	   (11, 'Rodrigo santos', 91871455, 23, '18:30h', 5, '#lusitano', 'Qualidade excelente e atendimento simpático!'),
+	   (12, 'António', 935618651, 18, '15h', 4, '#lusitano', 'Qualidade boa!'),
+	   (13, 'Rodrigo', 91871455, 25, '14:30h', 3, '#lusitano', 'Qualidade mais ou menos!'),
+	   (14, 'Rodrigo', 91871455, 06, '12h', 0, '#lusitano', 'Pessimo atendimento e comida horrorosa!'),
+	   (15, 'Rodrigo', 91871455,01, '22h', 1, '#lusitano', 'Qualidade horrivel!')

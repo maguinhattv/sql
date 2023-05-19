@@ -1,0 +1,5 @@
+SELECT * FROM SSMS.dbo.Pessoa
+INSERT INTO SSMS.dbo.Pessoa(ID,NomeCompleto,Idade,Morada)
+VALUES(1,'Maria Gaspar',41,'Rua Costa Cabral'),
+	  (2,'Rui Maia',30,''),
+	  (3,'Vasco Palmeirim',21,'Rua Tenente Valadim')

@@ -1,0 +1,9 @@
+SELECT * FROM SSMS.dbo.Carro --SELECIONA TABELA
+INSERT INTO SSMS.dbo.Carro(Id, Marca, Cor, Matricula, DatadeVenda) --INSERE REGISTROS
+VALUES (1, 'Hyundai', 'Vermelho', 'AQ-41-ZF', '2022/03/12'),
+	   (2, 'Porche', 'Preto', '2K-8S-FR', '2023/12/16'),
+	   (3, 'FIAT', 'Branco', 'LG-2D-Z0', '2023/07/02'),
+	   (4, 'Ford', 'Azul Escuro', '83-FC-MP', '2023/05/30')
+
+INSERT INTO SSMS.dbo.Carro(Id, Marca, Cor, Matricula, DatadeVenda) --ADICIONA MAIS UM REGISTRO
+VALUES (1, '', '', 'AP-4D-1G', '2023/01/25') --ADICIONA REGISTRO COM NULLS
